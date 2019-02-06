@@ -1,6 +1,8 @@
 
 all:
 	@ echo "## Guessinggame" > README.md
+	@ echo " " >> README.md
 	@ date >> README.md
-	@ cat guessinggame.sh | wc -l >> README.md
+	@ echo " " >> README.md
+	@ wc -l guessinggame.sh >> README.md
 
